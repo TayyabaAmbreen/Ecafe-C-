@@ -11,6 +11,7 @@
         <div>
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="User" AutoPostBack="True"/>
             <br />
+            <br />
         </div>
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Admin" AutoPostBack="True"/>
     </form>

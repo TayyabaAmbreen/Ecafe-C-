@@ -14,7 +14,7 @@
             <asp:ListBox ID="ListBox3" runat="server" Height="177px" Width="216px"></asp:ListBox>
             <asp:ListBox ID="ListBox4" runat="server" Height="178px" Width="218px"></asp:ListBox>
         </div>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Logout" />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Logout" AutoPostBack="True"/>
     </form>
 </body>
 </html>
